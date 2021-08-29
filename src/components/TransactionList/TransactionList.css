@@ -1,0 +1,22 @@
+
+.Conatainer-list{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+  .Conatainer-list -logo {
+    height: 50%;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Conatainer-list o {
+      animation: Conatainer-Dashboard-spin infinite 20s linear;
+    }
+  }

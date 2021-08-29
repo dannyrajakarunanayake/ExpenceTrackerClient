@@ -1,0 +1,30 @@
+.Container {
+    display: flex;
+    background-color: #66D3FA;
+}
+
+.Container-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+img {
+    justify-content: flex;
+    background-color: blue;
+}
+
+.sidebar {
+    background-color: blue;
+    height: 80%;
+}
+
+.Container a {
+    color: black;
+    font-size: 32px;
+    margin: 30px;
+    text-decoration: none;
+    font-family: ''Lato', sans-serif';
+}
